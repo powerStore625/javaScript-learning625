@@ -15,7 +15,7 @@ if(age > 18) {
     console.log("eligible for voting");
 }
 
-if("raman") {
+if("raman") { // 0, null, undefined pr bas false hoga
     console.log("cond. is true");
 }
 
@@ -41,4 +41,21 @@ switch (a) {
     break;
     default: document.write("Invalid input");
     break;
+
+}
+
+let n = 4;
+for (let i = 0; i < n; i++) {
+    console.log(i);
+}
+
+let obj = {
+    name : "raman",
+    roll : 21,
+    fees : 7000
+}
+console.log(obj.name);
+
+for(it in obj) {  // it is key
+    console.log(it, "->", obj[it]); // obj[it] for val. inside it
 }
